@@ -5,7 +5,7 @@ Summary:	Sort::Fields perl module
 Summary(pl):	Modu³ perla Sort::Fields
 Name:		perl-Sort-Fields
 Version:	0.90
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
