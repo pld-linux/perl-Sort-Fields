@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without  tests   # do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Sort
 %define	pnam	Fields
@@ -6,7 +10,7 @@ Summary(pl):	Modu³ perla Sort::Fields
 Name:		perl-Sort-Fields
 Version:	0.90
 Release:	9
-License:	GPL
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	72a10526c1c0c747da41b808a362fe42
@@ -31,10 +35,13 @@ zawieraj±cych podzielone na pola dane.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests: %{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
