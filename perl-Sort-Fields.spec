@@ -24,7 +24,7 @@ Sort::Fields provides a general purpose technique for efficiently
 sorting lists of lines that contain data separated into fields.
 
 %description -l pl
-Sort::Fields udostpênia technikê wydajnego sortowania linii
+Sort::Fields udostêpnia technikê wydajnego sortowania linii
 zawieraj±cych podzielone na pola dane.
 
 %prep
