@@ -1,9 +1,12 @@
+%define	pdir	Sort
+%define	pnam	Fields
 %include	/usr/lib/rpm/macros.perl
 Summary:	Sort-Fields perl module
 Summary(pl):	Modu³ perla Sort-Fields
 Name:		perl-Sort-Fields
 Version:	0.90
-Release:	6
+Release:	7
+
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
@@ -14,7 +17,7 @@ Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Sort/Sort-Fields-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
