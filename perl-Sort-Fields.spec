@@ -28,7 +28,7 @@ zawieraj±cych podzielone na pola dane.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
