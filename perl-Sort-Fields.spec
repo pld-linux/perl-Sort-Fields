@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Sort
 %define	pnam	Fields
-Summary:	Sort-Fields perl module
-Summary(pl):	Modu³ perla Sort-Fields
+Summary:	Sort::Fields perl module
+Summary(pl):	Modu³ perla Sort::Fields
 Name:		perl-Sort-Fields
 Version:	0.90
 Release:	8
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Sort-Fields provides a general purpose technique for efficiently
+Sort::Fields provides a general purpose technique for efficiently
 sorting lists of lines that contain data separated into fields.
 
 %description -l pl
-Sort-Fields udostpênia technikê wydajnego sortowania linii
+Sort::Fields udostpênia technikê wydajnego sortowania linii
 zawieraj±cych podzielone na pola dane.
 
 %prep
