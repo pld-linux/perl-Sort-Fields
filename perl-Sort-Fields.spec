@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Sort
-%define	pnam	Fields
+%define		pdir	Sort
+%define		pnam	Fields
 Summary:	Sort::Fields perl module
 Summary(pl):	Modu³ perla Sort::Fields
 Name:		perl-Sort-Fields
