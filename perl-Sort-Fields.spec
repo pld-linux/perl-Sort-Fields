@@ -6,7 +6,7 @@
 %define		pdir	Sort
 %define		pnam	Fields
 Summary:	Sort::Fields perl module
-Summary(pl.UTF-8):   Moduł perla Sort::Fields
+Summary(pl.UTF-8):	Moduł perla Sort::Fields
 Name:		perl-Sort-Fields
 Version:	0.90
 Release:	10
