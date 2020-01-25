@@ -4,7 +4,6 @@
 
 %define		pdir	Sort
 %define		pnam	Fields
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sort::Fields perl module
 Summary(pl.UTF-8):	Moduł perla Sort::Fields
 Name:		perl-Sort-Fields
