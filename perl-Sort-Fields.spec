@@ -8,7 +8,7 @@ Summary:	Sort::Fields perl module
 Summary(pl.UTF-8):	Moduł perla Sort::Fields
 Name:		perl-Sort-Fields
 Version:	0.90
-Release:	11
+Release:	12
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
