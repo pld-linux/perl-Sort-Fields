@@ -7,12 +7,12 @@
 Summary:	Sort::Fields perl module
 Summary(pl.UTF-8):	Moduł perla Sort::Fields
 Name:		perl-Sort-Fields
-Version:	0.90
-Release:	12
-License:	unknown
+Version:	1.003
+Release:	1
+License:	Artistic v2.0
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	72a10526c1c0c747da41b808a362fe42
+Source0:	https://www.cpan.org/authors/id/B/BR/BRIANDFOY/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	63b692accdecfc86e938fba6224224e0
 URL:		http://search.cpan.org/dist/Sort-Fields/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -48,6 +48,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes README.pod
 %{perl_vendorlib}/Sort/Fields.pm
 %{_mandir}/man3/*
